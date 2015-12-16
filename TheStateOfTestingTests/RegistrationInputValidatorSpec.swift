@@ -34,6 +34,15 @@ class RegistrationInputValidatorSpec: QuickSpec {
                         expect { try registrationInputValidator.validateInputWithEmail(email, andPassword: password) }
                             .to(throwError(RegistrationInputValidatorError.EmptyEmail))
                     }
+                    
+                    /*
+                        It may come in handy sometime to know how it's comparing the errors that were thrown
+                        to see if they are the same or not. Every ErrorType enum has a ._domain and ._code property,
+                        and they are && together to determine if they are the same. So, don't expect it to take your 
+                        aggregate values passed with the enum into account. If you want that, either make the comparisons
+                        to domain and code yourself, or provide a == operator for your specific enum that compares those and
+                        Nimble will use that instead.
+                    */
                 }
                 
                 context("when the email is nil") {
@@ -74,6 +83,7 @@ class RegistrationInputValidatorSpec: QuickSpec {
             context("when the email is valid") {
                 
                 beforeEach {
+                    // Hey now I get to share this valid email with the rest of my tests
                     email = "srscottrobbins@gmail.com"
                 }
                 

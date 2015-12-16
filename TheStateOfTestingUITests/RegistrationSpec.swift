@@ -87,6 +87,11 @@ class RegistrationSpec: XCTestCase {
         emailTextField.typeText(validEmail)
         passwordTextField.tap()
         passwordTextField.typeText(invalidPassword)
+        
+        /* if it starts failing saying there is no keyboard in focus, make sure 
+           connect hardware keyboards is off, or reset content and settings on simulator
+        */
+        
         submitButton.tap()
         
         validationAlert = app.alerts[invalidPasswordAlertAccessibilityIdentifier]
@@ -96,9 +101,20 @@ class RegistrationSpec: XCTestCase {
     }
     
     func testAllValidFields() {
-        // Let's show recording with this
+        // Let's show what happened when recording with this
         
+        let app = XCUIApplication()
+        let emailTextField = app.textFields["Email"]
+        emailTextField.tap()
+        emailTextField.typeText("validEmail@validDomain.com")
         
-//        XCTAssert(app.staticTexts["Yay you logged in"].exists)
+        let passwordSecureTextField = app.secureTextFields["Password"]
+        passwordSecureTextField.tap() // 2 taps for no reason???
+        passwordSecureTextField.tap()
+        passwordSecureTextField.typeText("Password1$")
+        app.buttons["Submit"].tap()
+        
+        // This will verify that you are on the next screen
+        XCTAssert(app.staticTexts["Yay you logged in"].exists)
     }
 }

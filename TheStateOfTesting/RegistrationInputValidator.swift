@@ -9,6 +9,9 @@ enum RegistrationInputValidatorError: ErrorType {
 
 struct RegistrationInputValidator {
     
+    // MARK: - Interface
+    
+    /// Validates email and password. Will throw exception if invalid
     func validateInputWithEmail(email: String?, andPassword password: String?) throws {
         try validateEmail(email)
         try validatePassword(password)
@@ -27,6 +30,8 @@ struct RegistrationInputValidator {
             throw RegistrationInputValidatorError.InvalidEmailFormat
         }
     }
+    
+    // MARK: - Validation methods
     
     private func validatePassword(password: String?) throws {
         guard let password = password where !password.isEmpty else {
