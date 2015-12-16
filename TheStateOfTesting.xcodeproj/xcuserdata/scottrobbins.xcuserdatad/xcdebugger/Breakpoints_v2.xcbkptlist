@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheStateOfTestingUITests/RegistrationSpec.swift"
+            timestampString = "471896698.0051"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "setUp()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheStateOfTestingUITests/RegistrationSpec.swift"
+            timestampString = "471905532.212277"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "testEmptyEmail()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheStateOfTestingUITests/RegistrationSpec.swift"
+            timestampString = "471896698.0051"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "testEmptyEmail()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheStateOfTestingUITests/RegistrationSpec.swift"
+            timestampString = "471896698.0051"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "setUp()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "TheStateOfTestingUITests/RegistrationSpec.swift"
+            timestampString = "471896698.0051"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "3"
+            endingLineNumber = "3"
+            landmarkName = "RegistrationSpec"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheStateOfTestingUITests.RegistrationSpec.__deallocating_deinit"
+                  moduleName = "TheStateOfTestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scottrobbins/Documents/TheStateOfTesting/TheStateOfTestingUITests/RegistrationSpec.swift"
+                  timestampString = "471896128.89525"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheStateOfTestingUITests.RegistrationSpec.init (TheStateOfTestingUITests.RegistrationSpec.Type)(invocation : Swift.Optional&lt;__ObjC.NSInvocation&gt;) -&gt; TheStateOfTestingUITests.RegistrationSpec"
+                  moduleName = "TheStateOfTestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scottrobbins/Documents/TheStateOfTesting/TheStateOfTestingUITests/RegistrationSpec.swift"
+                  timestampString = "471896128.895432"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheStateOfTestingUITests.RegistrationSpec.init (TheStateOfTestingUITests.RegistrationSpec.Type)(selector : ObjectiveC.Selector) -&gt; TheStateOfTestingUITests.RegistrationSpec"
+                  moduleName = "TheStateOfTestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scottrobbins/Documents/TheStateOfTesting/TheStateOfTestingUITests/RegistrationSpec.swift"
+                  timestampString = "471896128.895577"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "41">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TheStateOfTestingUITests.RegistrationSpec.init (TheStateOfTestingUITests.RegistrationSpec.Type)() -&gt; TheStateOfTestingUITests.RegistrationSpec"
+                  moduleName = "TheStateOfTestingUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/scottrobbins/Documents/TheStateOfTesting/TheStateOfTestingUITests/RegistrationSpec.swift"
+                  timestampString = "471896128.895724"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "37">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

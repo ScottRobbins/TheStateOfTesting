@@ -1,0 +1,19 @@
+"Email" = "correo electrónico";
+
+"Error" = "Error";
+
+"Invalid Email" = "Email Inválido";
+
+"Invalid Password" = "Contraseña Invalida";
+
+"invald_password_key" = " La contraseña debe contener al menos una letra mayúscula, letra minúscula , número y carácter especial";
+
+"Password" = "Clave";
+
+"Please enter an email" = "Por favor, introduzca un correo electrónico";
+
+"Please enter a password" = "Por favor, introduzca una contraseña";
+
+"Please enter a valid email address" = "Por favor, introduce una dirección de correo electrónico válida";
+
+"The State of Testing" = "El Estado de Prueba";

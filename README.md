@@ -1,0 +1,1 @@
+Just letting you know, Quick right now is broken in Cocoapods 0.39.0. I used carthage and some hackery to get it installed and working after hours of frustration, so don't be surprised if you have trouble with it.

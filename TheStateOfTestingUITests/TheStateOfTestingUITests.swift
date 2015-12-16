@@ -2,7 +2,7 @@
 //  TheStateOfTestingUITests.swift
 //  TheStateOfTestingUITests
 //
-//  Created by Samuel Scott Robbins on 12/14/15.
+//  Created by Scott Robbins on 12/15/15.
 //  Copyright © 2015 Scott Robbins Software. All rights reserved.
 //
 

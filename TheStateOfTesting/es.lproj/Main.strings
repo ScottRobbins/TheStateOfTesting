@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Yay you logged in"; ObjectID = "D7b-2p-bXf"; */
+"D7b-2p-bXf.text" = "Yay you logged in";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "ITb-4C-l8v"; */
+"ITb-4C-l8v.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "Tbd-7w-1s0"; */
+"Tbd-7w-1s0.text" = "Password";
+
+/* Class = "UINavigationItem"; title = "The State of Testing"; ObjectID = "UHI-4e-o4N"; */
+"UHI-4e-o4N.title" = "The State of Testing";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "nwm-3D-AZL"; */
+"nwm-3D-AZL.text" = "Email";
